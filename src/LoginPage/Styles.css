@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bt{
+    padding:10px 20px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 25px 0px;
+    background-color: rgb(62, 62, 226);
+    border: none;
+}
+.bt:hover{
+    background-color: blueviolet;
+    transition: all 0.5s;
+}
+label{
+    font-size: 18px;
+    /* color: grey; */
+    font-weight: 700;
+}
+.inpt,.psd{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+ 
+}
+.inpt:hover,
+.psd:hover{
+    outline: 2px double grey;
+}
